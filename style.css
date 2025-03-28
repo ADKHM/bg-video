@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header,
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ video {
+    object-fit: cover;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+header .container {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+}
+
+.container nav {
+    display: flex;
+    gap: 27px;
+}
+
+.container nav a {
+    font-size: 11.81px;
+    font-weight: 400;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.btu {
+    position: absolute;
+    width: 520px;
+    height: 182px;
+    background: none;
+    top: 450px;
+    left: 200px;
+    
+    z-index: 1;
+}
+
+.btu h2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 38px;
+    color: white;
+}
+
+.btu h1 {
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+
+}
+
+.btu button {
+    width: 130px;
+    height: 50px;
+    background: none;
+    border: 2px solid white;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+}
